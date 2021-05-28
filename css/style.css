@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Aretha-light';
+  src: url('../font/Aretha-light.otf') format('truetype');
+}
+
+/*====================
+
+Universal Styling
+
+====================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+p,
+ul {
+  font-family: "Aretha-light", sans-serif;
+}
+
+p {
+    line-height: 25px;
+    margin: 30px;
+    display: inline-block;
+    font-size: 18;
+    color: rgb(22,20,18);
+}
+
+.container {
+    max-width: 500;
+    margin: 40 auto;
+    text-align: center;
+    padding: 30;
+    border-spacing: 30;
+    line-height: 1;
+}
+
+a {
+    margin: 30px 0;
+    text-decoration: none;
+    font-size: 40;
+    font-family: dosis;
+    display: block;
+}
+
+/*====================
+
+Header
+
+====================*/
+
+header {
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.logo-container, header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20;
+    margin: 30px 0;
+    padding: 25;
+}
+
+/*====================
+
+Home Page
+
+====================*/
+
+img.hero-image {
+    width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*====================
+
+Services
+
+====================*/
